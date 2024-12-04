@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  color: #009966;
+}
+
+header {
+  margin-left: 24px;
+  margin-top: 96px;
+  line-height: 30px;
+  font-size: 20px;
+  width: 100%;
+  padding-top: 90px;
+  max-width: 808px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.about {
+  margin: 60px 0px;
+
+  max-width: 95%;
+}
+
+main {
+  border-top: color(display-p3 0.6 0.6 0.6) solid 8px;
+  background: #666666;
+  padding: 72px 0px;
+  border-bottom: color(display-p3 0.6 0.6 0.6) solid 8px;
+}
+
+.card {
+  background: #fff;
+  width: 100%;
+  padding-top: 1px;
+  max-width: 808px;
+  margin: auto;
+}
+
+.indented-heading {
+  width: 374px;
+  max-width: 95%;
+  background: #ffbf00;
+  border-bottom: #cc9900 8px solid;
+  padding: 12px;
+  padding-left: 24px;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.content {
+  margin: 24px;
+  line-height: 30px;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .indented-heading {
+    max-width: 50%;
+  }
+  .about {
+    max-width: 55%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}
